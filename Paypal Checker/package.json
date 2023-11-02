@@ -1,0 +1,40 @@
+{
+  "name": "paypal-ipn-checker",
+  "version": "1.0.1",
+  "description": "Package for verifying Paypal IPN messages",
+  "keywords": [
+    "paypal",
+    "ipn",
+    "payment",
+    "listener"
+  ],
+  "contributors": [
+    {
+      "name": "Survival Knife",
+      "email": "me@soknife.dev",
+      "web": "http://soknife.dev"
+    }
+  ],
+  "bugs": {
+    "url": "https://github.com/knife-dev/paypal-ipn-checker/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:knife-dev/paypal-ipn-checker.git"
+  },
+  "dependencies": {
+    "underscore": "^1.8.3"
+  },
+  "main": "index",
+  "scripts": {
+    "test": "standard && tap --cov test*/ipn.js --coverage"
+  },
+  "engines": [
+    "node"
+  ],
+  "devDependencies": {
+    "coveralls": "^3.0.4",
+    "standard": "^12.0.1",
+    "tap": "^14.2.3"
+  }
+}
